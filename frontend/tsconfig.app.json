@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/vite-react/tsconfig.json",
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": [
+      "vite/client",
+      "vite"
+    ]
+  }
+}
