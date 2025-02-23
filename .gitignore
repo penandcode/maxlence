@@ -3,3 +3,5 @@ package_lock.json
 .env
 
 uploads/
+
+.vscode
